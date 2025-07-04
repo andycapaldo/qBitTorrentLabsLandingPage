@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import Brand from "./components/Brand";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     >
       <Nav />
       <Hero />
+      <Brand />
       <Card />
       <Footer />
     </div>
