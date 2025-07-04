@@ -18,7 +18,7 @@ const DotExpandButton = ({ text = "Hover this link", icon = faMedium }) => {
 
   return (
     <section>
-      <button className="group flex h-10 items-center gap-2 rounded-full bg-indigo-500 pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-black hover:pl-2 hover:text-white active:bg-neutral-700 w-full">
+      <button className="group flex h-10 items-center gap-2 rounded-full text-black bg-secondary pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-black hover:pl-2 hover:text-white active:bg-neutral-700 w-full">
         <FontAwesomeIcon icon={icon} className="rounded-full p-1 text-2xl transition-colors duration-300 group-hover:bg-white group-hover:text-black" />
         <span className='hover:text-white text-xl'>{text}</span>
       </button>

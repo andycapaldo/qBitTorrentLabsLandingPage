@@ -2,6 +2,7 @@ import { Dispatch, SetStateAction } from "react";
 import { motion } from "framer-motion";
 import { FiMenu } from "react-icons/fi";
 import useMeasure from "react-use-measure";
+import logo from "../../../public/logo.png";
 
 const Nav = () => {
   return (
@@ -34,8 +35,7 @@ const GlassNavigation = () => {
 
 const Logo = () => (
   <span className="pointer-events-none relative left-0 top-[50%] z-10 text-4xl font-black text-white mix-blend-overlay md:absolute md:left-[50%] md:-translate-x-[50%] md:-translate-y-[50%]">
-    qBitTensor
-    <span className="text-indigo-500"> Labs</span>
+    <img src={logo.src} alt="Logo" className="inline-block h-12 object-contain" />
   </span>
 );
 

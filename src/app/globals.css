@@ -1,2 +1,9 @@
 @import "@radix-ui/themes/styles.css";
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #0c2433;
+    --color-secondary: #87cdea;
+    --color-white: #edf0f2;
+    --color-black: #0f0f0f;
+}
