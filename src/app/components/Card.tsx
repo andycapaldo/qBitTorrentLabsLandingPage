@@ -21,13 +21,14 @@ const DotExpandButton = ({ text = "Hover this link", icon = faMedium }) => {
       <button className="group flex h-10 items-center gap-2 rounded-full text-black bg-secondary pl-3 pr-4 transition-all duration-300 ease-in-out 
         hover:bg-black hover:pl-2 hover:text-white
         focus:bg-black focus:text-white
-        active:bg-black w-full">
+        active:bg-black active:text-white 
+        w-full">
         <FontAwesomeIcon icon={icon} className="rounded-full p-1 text-2xl transition-colors duration-300 
           group-hover:bg-white group-hover:text-black
           group-focus:bg-white group-focus:text-black
           group-active:bg-white group-active:text-black" 
           />
-        <span className='hover:text-white text-xl'>{text}</span>
+        <span className='text-xl'>{text}</span>
       </button>
     </section>
   );
