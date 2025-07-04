@@ -7,3 +7,7 @@
     --color-white: #edf0f2;
     --color-black: #0f0f0f;
 }
+
+html, body {
+    background-color: primary;
+}
