@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "qBitTensor Labs",
-  description: "qBitTensor Labs is a Bittensor Company",
+  description: "Quantum computing on Bittensor.",
 };
 
 export default function RootLayout({
