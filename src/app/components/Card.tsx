@@ -8,7 +8,7 @@ function Card() {
         <div className='flex flex-col md:flex-row items-center justify-center gap-8 w-full h-full'>
             <div className='w-1/2 md:w-auto'><DotExpandButton text="Github" icon={faGithub} link="https://github.com/qbittensor-labs" /></div>
             <div className='w-1/2 md:w-auto'><DotExpandButton text="X" icon={faXTwitter} link="https://x.com/qBitTensor" /></div>
-            <div className='w-1/2 md:w-auto'><DotExpandButton text="Medium" icon={faMedium} link="https://medium.com" /></div>
+            <div className='w-1/2 md:w-auto'><DotExpandButton text="Medium" icon={faMedium} link="https://medium.com/@qbittensorlabs/on-monday-july-7th-qbittensor-labs-will-be-launching-bittensors-first-quantum-subnet-aptly-named-d01964f3f8be" /></div>
         </div>
     </div>
   )
