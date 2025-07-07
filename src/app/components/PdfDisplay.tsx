@@ -36,7 +36,7 @@ export default function PDFCarousel() {
       <div className="relative flex items-center justify-center">
         <button
           onClick={prevPage}
-          className="absolute left-0 z-10 px-3 py-1 text-white bg-secondary/40 rounded"
+          className="cursor-pointer absolute left-0 z-10 px-3 py-1 text-white bg-secondary/40 rounded"
         >
           ◀
         </button>
@@ -63,7 +63,7 @@ export default function PDFCarousel() {
 
         <button
           onClick={nextPage}
-          className="absolute right-0 z-10 px-3 py-1 text-white bg-secondary/40 rounded"
+          className="cursor-pointer absolute right-0 z-10 px-3 py-1 text-white bg-secondary/40 rounded"
         >
           ▶
         </button>
@@ -79,7 +79,7 @@ export default function PDFCarousel() {
           className="bg-secondary transition-all duration-300 ease-in-out 
           hover:bg-dark-blue hover:scale-[1.02] active:scale-[0.98] hover:text-white
           focus:bg-dark-blue focus:text-white
-          active:bg-dark-blue active:text-white text-black px-4 py-2 rounded-full text-sm font-medium transition"
+          active:bg-dark-blue active:text-white text-black px-4 py-2 rounded-full text-lg font-medium transition"
         >
           Download PDF
         </a>
