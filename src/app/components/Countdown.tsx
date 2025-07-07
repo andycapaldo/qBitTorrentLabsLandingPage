@@ -66,8 +66,8 @@ const useTimer = (unit: string) => {
   const [time, setTime] = useState(0);
 
   useEffect(() => {
+    handleCountdown();
     intervalRef.current = setInterval(handleCountdown, 1000);
-
     return () => clearInterval(intervalRef.current || undefined);
   }, []);
 
