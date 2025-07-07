@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Brand from "./components/Brand";
+import PdfDisplay from "./components/PdfDisplay";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <Brand />
       <Card />
+      <PdfDisplay />
       <Footer />
     </div>
   );
