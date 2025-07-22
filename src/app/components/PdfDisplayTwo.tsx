@@ -4,10 +4,14 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const pages = [
-  { id: 1, src: '/page_1.png', alt: 'Peaker Circuits Page 1' },
-  { id: 2, src: '/page_2.png', alt: 'Peaker Circuits Page 2' },
-  { id: 3, src: '/page_3.png', alt: 'Peaker Circuits Page 3' },
-  { id: 4, src: '/page_4.png', alt: 'Peaker Circuits Page 4' },
+  { id: 1, src: '/hidden-stabilizers-1.jpg', alt: 'Hidden Stabilizers Page 1' },
+  { id: 2, src: '/hidden-stabilizers-2.jpg', alt: 'Hidden Stabilizers Page 2' },
+  { id: 3, src: '/hidden-stabilizers-3.jpg', alt: 'Hidden Stabilizers Page 3' },
+  { id: 4, src: '/hidden-stabilizers-4.jpg', alt: 'Hidden Stabilizers Page 4' },
+  { id: 5, src: '/hidden-stabilizers-5.jpg', alt: 'Hidden Stabilizers Page 5' },
+  { id: 6, src: '/hidden-stabilizers-6.jpg', alt: 'Hidden Stabilizers Page 6' },
+  { id: 7, src: '/hidden-stabilizers-7.jpg', alt: 'Hidden Stabilizers Page 7' },
+  { id: 8, src: '/hidden-stabilizers-8.jpg', alt: 'Hidden Stabilizers Page 8' },
 ];
 
 export default function PDFCarousel() {
@@ -74,7 +78,7 @@ export default function PDFCarousel() {
       </p>
     <div className="flex justify-center items-center mt-6">
         <a
-          href="/PeakerCircuitsTecDes.pdf"
+          href="/hidden-stabilizers.pdf"
           download
           className="bg-secondary transition-all duration-300 ease-in-out 
           hover:bg-dark-blue hover:scale-[1.02] active:scale-[0.98] hover:text-white

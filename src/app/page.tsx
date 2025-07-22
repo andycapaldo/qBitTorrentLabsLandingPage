@@ -6,6 +6,7 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Brand from "./components/Brand";
 import PdfDisplay from "./components/PdfDisplay";
+import PdfDisplayTwo from './components/PdfDisplayTwo';
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Hero />
       <Brand />
       <Card />
+      <PdfDisplayTwo />
       <PdfDisplay />
       <Footer />
     </div>
